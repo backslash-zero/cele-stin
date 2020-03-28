@@ -18,7 +18,7 @@ void setup() {
         processingImg(img, shadow, averageColor, i);
         i++;
     }
-    exit
+    exit();
 }
 
 void processingImg(PImage img, PImage shadow, color averageColor, int i) {
